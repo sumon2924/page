@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+img{
+	max-width: 100%;
+}
+.gallery{
+    max-width: 400px;
+    margin: 30px auto;
+    /* background: aqua; */
+    position: relative;
+}
+.gallery img{}
+.gallery h2{
+    position: absolute;
+    color: #1a94f4;
+    font-size: 23px;
+    right: 50%;
+    bottom: 50%;
+    text-align: center;
+    transform: translate(50%, 50%);
+    /* width: 2%; */
+}
+
+.bg_01 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: #222322d6 url(images/li-zhang-MD11tTqX6HM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+  
+h1{
+	color: #fff;
+	font-size: 50px;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background: blanchedalmond;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ball{
+    height: 50px;
+    width: 50px;
+    background: black;
+    margin-left: -25px;
+}
+
+
+
+@media(max-width: 800px){
+	.bg_01{
+		 background: #222322d6 url(images/lobacheva-ina-aplTQlS84gg-unsplash.jpg);
+	}
+}
+
+@media(max-width: 550px){
+	.bg_01{
+		 background: #222322d6 url(images/lawrence-chismorie-qdoNGLzt2L8-unsplash.jpg);
+	}
+}
+
+ 
